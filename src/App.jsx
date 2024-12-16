@@ -16,7 +16,7 @@ const App = () => {
   const [error, setError] = useState('');
   const [savedCityWeather, setSavedCityWeather] = useState(null);
 
-  const API_KEY = '3a7b2ec772a757bbe0f4389a9a6ff053'; // Replace with your actual API key.
+  const API_KEY = 'Your_API_KEY'; // Replace with your actual API key.
 
   useEffect(() => {
     localStorage.setItem('savedCities', JSON.stringify(savedCities));
